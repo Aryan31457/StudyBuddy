@@ -1,0 +1,14 @@
+.create-test-page { padding: 28px 48px; }
+.create-test-page .page-header { display:flex; align-items:center; justify-content:space-between; gap:12px; }
+.create-test-page .page-header h1 { font-size:36px; color:#3f2b66; margin:0; }
+.create-test-page .subtitle { color:#7b6f86; margin:6px 0 0 0; }
+.create-test-page .actions { display:flex; gap:12px; }
+.btn { padding:10px 18px; border-radius:20px; }
+.btn-ghost { background:#fff; border:1px solid #e6e6e6; }
+.btn-primary { background:#2563eb; color:white; }
+.create-body { margin-top:24px; }
+.source-row { display:flex; gap:18px; margin-top:18px; }
+.create-source-card { flex:1; border:1px solid #eee; padding:24px; border-radius:10px; text-align:center; cursor:pointer; }
+.create-source-card.selected { border-color:#4f46e5; box-shadow:0 6px 18px rgba(79,70,229,0.08); }
+.create-source-card .icon { font-size:28px; margin-bottom:12px; }
+.advanced { margin-top:16px; }

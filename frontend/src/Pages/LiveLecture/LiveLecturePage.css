@@ -1,0 +1,31 @@
+.live-lecture-page { padding: 36px 48px; }
+.hero { text-align:center; margin-bottom:28px; }
+.hero-icon { font-size:48px; margin-bottom:10px; }
+.hero h1 { font-size:32px; color:#3b2e7e; margin-bottom:12px; }
+.primary-cta { background:#2563eb; color:white; padding:10px 18px; border-radius:20px; border:none; }
+.content-grid { display:flex; gap:24px; }
+.col { flex:1; }
+.notes-box { border:1px solid #eaeaea; border-radius:8px; padding:16px; background:#fff; }
+.self-notes { border-color:#dbeedd; }
+.enhanced-notes { border-color:#e6e7fb; }
+.box-label { font-weight:700; color:#c94b4b; margin-bottom:8px; }
+.highlight { color:#16a34a; font-weight:700; }
+
+.transcribe-bar { margin-top:12px; background:#f0faf3; border:1px solid #d9f1e0; padding:10px 12px; border-radius:6px; display:flex; gap:12px; align-items:center; }
+.transcribe-bar .bars { color:#16a34a; font-weight:700; }
+.transcribe-bar .text { color:#16a34a; font-weight:600; }
+
+.guide-row { display:flex; justify-content:center; margin:22px 0; }
+.close-guide { background:#ffffff; border:1px solid #e6e6e6; padding:8px 16px; border-radius:20px; cursor:pointer; }
+
+.previous-sessions { padding-top:18px; }
+.previous-sessions h2 { font-size:24px; color:#3b2e7e; margin-bottom:18px; }
+.no-sessions { text-align:center; padding:40px 0; color:#8f8f9b; }
+.no-sessions .mic { font-size:44px; margin-bottom:12px; }
+.no-sessions .msg-title { font-size:18px; font-weight:600; margin-bottom:6px; color:#4a3b6d; }
+.no-sessions .msg-sub { color:#9a9aa6; }
+
+.top-controls { display:flex; justify-content:space-between; align-items:center; margin:12px 0; }
+.right-controls { display:flex; gap:12px; }
+.show-guide { background:transparent; border:1px solid #e6e6e6; padding:8px 10px; border-radius:8px; cursor:pointer; }
+
