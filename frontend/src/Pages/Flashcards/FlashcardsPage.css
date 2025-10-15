@@ -1,0 +1,28 @@
+.flashcards-page {
+  padding: 28px 48px;
+}
+.flashcards-page .page-header h1 {
+  font-size: 36px;
+  color: #3f2b66;
+  margin: 0 0 6px 0;
+}
+.flashcards-page .page-header .subtitle {
+  color: #7b6f86;
+  margin: 0 0 18px 0;
+}
+.top-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 0 32px 0;
+}
+.controls { display:flex; gap:12px; align-items:center; }
+.select-chip {
+  background: white; border: 1px solid #eee; padding:8px 12px; border-radius:12px; color:#3f2b66;
+}
+.view-all, .combine { background:#f5f6f8; border:1px solid #eee; padding:8px 12px; border-radius:12px; }
+.search-input { padding:10px 14px; border-radius:10px; border:1px solid #eee; min-width:220px; }
+.empty-state { text-align:center; padding:36px 0; }
+.empty-illustration { font-size:46px; margin-bottom:10px; }
+.primary-create { background:#2563eb; color:white; border:none; padding:12px 20px; border-radius:20px; margin-top:12px; }
+.heatmap-placeholder { margin-top:22px; background:#fcf8ff; border-radius:10px; padding:24px; }

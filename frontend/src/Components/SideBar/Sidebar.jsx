@@ -30,7 +30,10 @@ const Sidebar = ({ activeKey, onMenuClick }) => {
           <div
             className={`sidebar-item${activeKey === item.key ? ' active' : ''}`}
             key={item.key}
+            role="button"
+            tabIndex={0}
             onClick={() => onMenuClick && onMenuClick(item.key)}
+            onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') onMenuClick && onMenuClick(item.key); }}
             onMouseEnter={() => {
               if (item.key === 'chat') setShowChatTooltip(true);
             }}
