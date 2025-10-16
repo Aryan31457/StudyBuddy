@@ -1,0 +1,22 @@
+.select-materials-page { padding:28px 48px; }
+.page-top { display:flex; justify-content:space-between; align-items:center; }
+.page-top h1 { color:#3f2b66; margin:0; font-size:34px; }
+.page-top .subtitle { color:#7b6f86; margin-top:6px; }
+.top-actions { display:flex; gap:12px; }
+.upload-card { border:1px dashed #e6e6e6; padding:22px 36px; border-radius:10px; min-width:240px; text-align:center; color:#6b6b6b; cursor:pointer; }
+.upload-card:hover { background:#fbfbff; }
+.materials-area { display:flex; gap:24px; margin-top:36px; align-items:flex-start; flex-wrap:wrap; justify-content:center; }
+.empty-state { color:#6b6b6b; padding:28px; border:1px dashed #eee; border-radius:8px; min-width:320px; }
+.material-card { border:1px solid #eaeaea; border-radius:8px; padding:16px; min-width:360px; display:flex; gap:12px; align-items:flex-start; }
+.material-card.selected { border-color:#7c87ff; box-shadow:0 8px 18px rgba(124,135,255,0.08); }
+.material-icon { font-size:22px; }
+.material-title { font-weight:600; color:#2f2547; }
+.material-sub { color:#8b84a0; margin-top:6px; }
+.material-actions { margin-top:10px; display:flex; gap:8px; }
+.search-row { margin-top:18px; display:flex; justify-content:flex-end; }
+.search-input { padding:10px 12px; border-radius:8px; border:1px solid #e6e6e6; min-width:220px; }
+.chip { padding:6px 10px; border-radius:16px; background:#fafafa; border:1px solid #e6e6e6; cursor:pointer; }
+.btn { padding:10px 18px; border-radius:20px; }
+.btn-ghost { background:#fff; border:1px solid #e6e6e6; }
+.btn-primary { background:#2563eb; color:white; }
+.advanced { margin-top:40px; }

@@ -2,11 +2,11 @@ import React from 'react';
 import { MdLock } from 'react-icons/md';
 
 const statData = [
-  { label: 'Materials', value: 1 },
+  { label: 'Materials', value: 0 },
   { label: 'Flashcards', value: 0 },
   { label: 'Tests & QuizFetch', value: 0 },
   { label: 'Tutor Me', value: 0 },
-  { label: 'Arcade', value: 1 },
+  // { label: 'Arcade', value: 1 },
   { label: 'Audio Recap', value: 0 },
 ];
 

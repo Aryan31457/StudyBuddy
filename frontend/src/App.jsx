@@ -12,6 +12,7 @@ import MaterialsPage from './Pages/Materials/MaterialsPage';
 import TestsPage from './Pages/Tests/TestsPage';
 import FlashcardsPage from './Pages/Flashcards/FlashcardsPage';
 import CreateTestPage from './Pages/Tests/CreateTestPage';
+import SelectMaterialsPage from './Pages/Tests/SelectMaterialsPage';
 import LiveLecturePage from './Pages/LiveLecture/LiveLecturePage';
 import LoginPage from './Pages/Auth/LoginPage';
 import ProtectedRoute from './Components/Auth/ProtectedRoute';
@@ -59,6 +60,7 @@ function AppLayout() {
           <Route path="/calendar/month" element={<ProtectedRoute><MonthPage /></ProtectedRoute>} />
           <Route path="/tests" element={<ProtectedRoute><TestsPage /></ProtectedRoute>} />
           <Route path="/tests/create" element={<ProtectedRoute><CreateTestPage /></ProtectedRoute>} />
+          <Route path="/tests/select-materials" element={<ProtectedRoute><SelectMaterialsPage /></ProtectedRoute>} />
         </Routes>
       </div>
     </div>

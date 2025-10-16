@@ -12,3 +12,11 @@
 .create-source-card.selected { border-color:#4f46e5; box-shadow:0 6px 18px rgba(79,70,229,0.08); }
 .create-source-card .icon { font-size:28px; margin-bottom:12px; }
 .advanced { margin-top:16px; }
+
+.advanced-body { margin-top:12px; display:flex; flex-direction:column; gap:12px; max-width:680px; }
+.form-label { font-size:14px; color:#5b4f6a; margin-bottom:6px; }
+.form-input { padding:10px 12px; border-radius:8px; border:1px solid #e6e6e6; font-size:14px; }
+.form-textarea { min-height:96px; padding:10px 12px; border-radius:8px; border:1px solid #e6e6e6; font-size:14px; resize:vertical; }
+.example-chips { display:flex; gap:8px; margin-top:6px; }
+.chip { padding:6px 10px; border-radius:16px; border:1px solid #ddd; background:#fafafa; cursor:pointer; font-size:13px; }
+.chip-active { background:#efe8ff; border-color:#7c3aed; color:#4b2fbf; }
